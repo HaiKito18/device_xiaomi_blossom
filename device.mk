@@ -395,7 +395,7 @@ PRODUCT_COPY_FILES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    FMRadio
+    RevampedFMRadio
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -538,3 +538,5 @@ PRODUCT_PACKAGES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/blossom/blossom-vendor.mk)
 
+#miui
+$(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
