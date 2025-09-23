@@ -26,9 +26,26 @@ PRODUCT_BRAND := Redmi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+#Add the following variables:
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="HaiKito"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Mediatek G25/35" \
+    RisingMaintainer="HaiKito"
+
+RISING_MAINTAINER := HaiKito
+
+# Disable/enable blur support, false by default
 TARGET_ENABLE_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_DISABLE_MATLOG := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Whether to ship aperture camera, false by default
 PRODUCT_NO_CAMERA := true
-TARGET_EXCLUDES_AUDIOFX := true
+
+# Whether to ship lawnchair launcher, false by default
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := false
