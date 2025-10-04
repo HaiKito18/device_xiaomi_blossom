@@ -96,41 +96,9 @@
   ],
   "CoolingDevices": [
     {
-      "Name": "mtk-cl-bcct00",
-      "Type": "BATTERY"
-    },
-    {
-      "Name": "mtk-cl-bcct01",
-      "Type": "BATTERY"
-    },
-    {
-      "Name": "mtk-cl-bcct02",
-      "Type": "BATTERY"
-    },
-    {
-      "Name": "abcct_lcmoff",
-      "Type": "BATTERY"
-    },
-    {
-      "Name": "abcct",
-      "Type": "BATTERY"
-    },
-    {
       "Name": "mtktsbattery-sysrst",
       "Type": "BATTERY"
-    },
-    {
-      "Name": "mtk-cl-backlight01",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "mtk-cl-backlight02",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "mtk-cl-backlight03",
-      "Type": "COMPONENT"
-    },
+    },    
     {
       "Name": "mtk-cl-cam00",
       "Type": "COMPONENT"
@@ -241,10 +209,6 @@
     },
     {
       "Name": "mtktswmt-pa2",
-      "Type": "COMPONENT"
-    },
-    {
-      "Name": "mtkclVR_FPS",
       "Type": "COMPONENT"
     },
     {
