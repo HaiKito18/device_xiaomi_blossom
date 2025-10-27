@@ -533,3 +533,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/blossom/blossom-vendor.mk)
+
+#Miuicamera
+$(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
