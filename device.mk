@@ -273,12 +273,6 @@ PRODUCT_PACKAGES += \
     libpng.vendor \
     libutilscallstack.vendor
 
-# Viper4fx
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
-# BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor
@@ -393,10 +387,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_hlt_mp.bin:recovery/root/vendor/firmware/novatek_ts_hlt_mp.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_fw.bin:recovery/root/vendor/firmware/novatek_ts_truly_fw.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_mp.bin:recovery/root/vendor/firmware/novatek_ts_truly_mp.bin
-
-# FM Radio
-PRODUCT_PACKAGES += \
-    RevampedFMRadio
 
 # HIDL
 PRODUCT_PACKAGES += \
