@@ -57,7 +57,7 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 
 # Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):init_xiaomi_monet)
+$(call soong_config_set,libinit,vendor_init_lib,libinit_blossom)
 TARGET_RECOVERY_DEVICE_MODULES := libinit_blossom
 
 # Jemalloc
