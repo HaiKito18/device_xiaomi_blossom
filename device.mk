@@ -143,6 +143,12 @@ PRODUCT_PACKAGES += \
 # FM Radio
 PRODUCT_PACKAGES += \
     RevampedFMRadio
+
+#Include ViaBrowser
+ifeq ($(TARGET_INCLUDE_VIA),true)
+PRODUCT_PACKAGES += \
+      ViaBrowser
+endif
     
 # Display
 PRODUCT_PACKAGES += \
